@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Projetos e cases da Fractalyn Systems." />
+  <title>Cases — Fractalyn Systems</title>
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/css/styles.css" as="style" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <meta name="theme-color" content="#070B14" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ir para a Home">
+        <img src="assets/img/logo.svg" alt="Fractalyn Systems" />
+      </a>
+
+      <div class="nav-actions">
+        <nav id="primary-nav" class="primary-nav" hidden aria-label="Navegação principal">
+          <div class="nav-top">
+            <a class="brand" href="index.html" aria-label="Ir para a Home">
+              <img src="assets/img/logo.svg" alt="Fractalyn Systems" />
+            </a>
+            <button id="nav-close" class="btn icon-btn" type="button" aria-label="Fechar menu">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </button>
+          </div>
+
+          <div class="nav-panel" data-nav-panel>
+            <ul class="nav-list">
+              <li><a class="nav-link" href="index.html">Home</a></li>
+<li><a class="nav-link" href="solucoes.html">Soluções</a></li>
+<li><a class="nav-link" href="servicos.html">Serviços</a></li>
+<li><a class="nav-link" href="cases.html" aria-current="page">Cases</a></li>
+<li><a class="nav-link" href="sobre.html">Sobre</a></li>
+<li><a class="nav-link" href="contato.html">Contato</a></li>
+
+            </ul>
+          </div>
+
+          <div class="nav-cta">
+            <a class="btn btn-primary" href="contato.html">Falar com especialista</a>
+            <a class="btn btn-secondary" href="cases.html">Ver cases</a>
+          </div>
+        </nav>
+
+        <a class="btn btn-primary" href="contato.html">Falar com especialista</a>
+
+        <button id="nav-open" class="btn icon-btn" type="button"
+          aria-label="Abrir menu" aria-controls="primary-nav" aria-expanded="false">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="5" r="1.8" fill="currentColor"/>
+            <circle cx="12" cy="12" r="1.8" fill="currentColor"/>
+            <circle cx="12" cy="19" r="1.8" fill="currentColor"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Cases</span></div>
+    <div class="kicker">Cases</div>
+    <h1>Projetos em construção</h1>
+    <p>Aqui você vê o que foi feito e o que ainda está em evolução.</p>
+  </div>
+</section>
+
+<section class="section-tight" data-cases>
+  <div class="container">
+    <h2>Filtrar</h2>
+    <div class="filters" role="group" aria-label="Filtros de projetos">
+      <button class="pill" type="button" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+      <button class="pill" type="button" type="button" data-filter="whatsapp" aria-pressed="false">WhatsApp</button>
+      <button class="pill" type="button" type="button" data-filter="estoque" aria-pressed="false">Estoque</button>
+      <button class="pill" type="button" type="button" data-filter="site" aria-pressed="false">Site</button>
+      <button class="pill" type="button" type="button" data-filter="vscode" aria-pressed="false">VS Code</button>
+      <button class="pill" type="button" type="button" data-filter="minecraft" aria-pressed="false">Minecraft</button>
+    </div>
+
+    <div class="grid grid-cards" aria-label="Lista de projetos">
+<article class="card" data-case data-tags="whatsapp">
+        <h3 class="card-title">Bot Palminha — grupos e privado</h3>
+        <p>Bot para grupos e privado, com comandos rápidos, submenus e módulos.</p>
+        <div class="tag-row">
+          <span class="tag">WhatsApp</span><span class="tag">Menu interativo</span><span class="tag">Automação</span>
+        </div>
+        <p class="help" style="margin-top: 10px;">Status: conceito visual pronto, Git ainda será publicado.</p>
+              <div style="margin-top: 14px;"><a class="btn btn-secondary btn-sm" href="bot-palminha.html">Abrir página do projeto</a></div>
+      </article>
+
+      <article class="card" data-case data-tags="estoque">
+        <h3 class="card-title">Gerenciamento de estoque — SQL Server</h3>
+        <p>Cadastro de produtos, entradas/saídas e relatórios básicos.</p>
+        <div class="tag-row">
+          <span class="tag">Estoque</span><span class="tag">SQL Server</span><span class="tag">SSMS</span>
+        </div>
+        <p class="help" style="margin-top: 10px;">Foco: clareza de dados e operação simples.</p>
+      </article>
+
+      <article class="card" data-case data-tags="site">
+        <h3 class="card-title">Site institucional — responsivo e rápido</h3>
+        <p>Layout consistente em mobile/tablet/desktop, com foco visível e sem rolagem lateral.</p>
+        <div class="tag-row">
+          <span class="tag">Site</span><span class="tag">A11y</span><span class="tag">Performance</span>
+        </div>
+        <p class="help" style="margin-top: 10px;">Foco: conteúdo objetivo e UX limpa.</p>
+      </article>
+
+      <article class="card" data-case data-tags="vscode">
+        <h3 class="card-title">Tema para Visual Studio Code</h3>
+        <p>Paleta confortável, contraste bom e consistência visual.</p>
+        <div class="tag-row">
+          <span class="tag">VS Code</span><span class="tag">UI</span><span class="tag">Tema</span>
+        </div>
+        <p class="help" style="margin-top: 10px;">Foco: leitura e padrões de design.</p>
+      </article>
+
+      <article class="card" data-case data-tags="minecraft">
+        <h3 class="card-title">Mods Minecraft 1.20.1 — laboratório</h3>
+        <p>Projeto de aprendizado para praticar lógica, organização e evolução de código.</p>
+        <div class="tag-row">
+          <span class="tag">Minecraft</span><span class="tag">Aprendizado</span><span class="tag">1.20.1</span>
+        </div>
+        <p class="help" style="margin-top: 10px;">Status: aprendendo e construindo base.</p>
+      </article>
+    </div>
+
+    <div style="margin-top: 18px;">
+      <a class="btn btn-primary" href="contato.html">Quero falar do meu projeto</a>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Fractalyn Systems</h3>
+          <p style="max-width: 42ch; margin-bottom: 0;">Projetos de bot, sistema e site feitos de forma clara e prática.</p>
+        </div>
+        <div>
+          <h3>Empresa</h3>
+          <ul>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="cases.html">Cases</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Soluções</h3>
+          <ul>
+            <li><a href="solucoes.html#solucoes">Produtos e módulos</a></li>
+            <li><a href="solucoes.html#integracoes">Integrações</a></li>
+            <li><a href="solucoes.html#observabilidade">Dados & Observabilidade</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="privacidade.html">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-meta">
+        <span>© 2026 Fractalyn Systems</span>
+        <span>Design minimalista • Acessível • Responsivo</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/cases.js" defer></script>
+</body>
+</html>

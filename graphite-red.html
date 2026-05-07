@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>Graphite Red — Tema para VS Code</title>
+  <meta name="description" content="Graphite Red — tema técnico e minimalista para VS Code, com modos Dark e Light." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Voltar para a Home">
+        <img src="assets/img/logo.svg" alt="Fractalyn Systems" />
+      </a>
+
+      <div class="nav-actions">
+        <button class="icon-btn" type="button" aria-label="Abrir menu" aria-controls="primary-nav" aria-expanded="false" data-menu-open>
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="5" r="1.8" fill="currentColor"/>
+            <circle cx="12" cy="12" r="1.8" fill="currentColor"/>
+            <circle cx="12" cy="19" r="1.8" fill="currentColor"/>
+          </svg>
+        </button>
+      </div>
+
+      <nav class="primary-nav" id="primary-nav" hidden>
+        <div class="nav-top">
+          <a class="brand" href="index.html" aria-label="Voltar para a Home">
+            <img src="assets/img/logo.svg" alt="Fractalyn Systems" />
+          </a>
+          <button class="icon-btn" type="button" aria-label="Fechar menu" data-menu-close>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="nav-panel" data-nav-panel>
+          <ul class="nav-list">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="cases.html">Cases</a></li>
+            <li><a class="nav-link" href="sobre.html">Sobre</a></li>
+            <li><a class="nav-link" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-cta">
+          <a class="btn btn-primary" href="contato.html">Falar comigo</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="index.html#projetos">Projetos</a>
+          <span aria-hidden="true">/</span>
+          <span>Graphite Red</span>
+        </div>
+
+        <div class="theme-hero">
+          <div class="theme-hero-copy">
+            <div class="kicker">Tema • VS Code</div>
+            <h1>Graphite Red</h1>
+            <p class="hero-lede">
+              Visual limpo e técnico com <strong>vermelho controlado</strong>, contraste confortável e foco em legibilidade.
+              Inclui modos <strong>Dark</strong> e <strong>Light</strong>.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="https://github.com/sr4kkk/graphite-red" target="_blank" rel="noopener">Abrir no GitHub</a>
+              <a class="btn btn-ghost" href="https://github.com/sr4kkk/graphite-red/archive/refs/heads/main.zip" target="_blank" rel="noopener">Baixar ZIP</a>
+              <a class="btn btn-secondary" href="#instalacao">Como instalar</a>
+            </div>
+
+            <div class="tag-row project-tags" aria-label="Tags do projeto">
+              <span class="tag">VS Code Theme</span>
+              <span class="tag">UI/UX</span>
+              <span class="tag">JSON</span>
+              <span class="tag">MIT License</span>
+            </div>
+          </div>
+
+          <div class="theme-hero-media" aria-label="Prévia do tema">
+            <div class="media-frame">
+              <img src="https://github.com/sr4kkk/graphite-red/blob/main/images/preview-dark.png?raw=1" alt="Prévia do Graphite Red no modo Dark" loading="lazy" decoding="async" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Galeria">
+      <div class="container">
+        <div class="section-head">
+          <div class="kicker">Galeria</div>
+          <h2>Dark & Light</h2>
+          <p>Imagens do tema para ver o visual antes de instalar.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="media-frame">
+            <img src="https://github.com/sr4kkk/graphite-red/blob/main/images/preview-dark.png?raw=1" alt="Graphite Red modo Dark" loading="lazy" decoding="async" />
+            <figcaption class="help">Modo Dark</figcaption>
+          </figure>
+
+          <figure class="media-frame">
+            <img src="https://github.com/sr4kkk/graphite-red/blob/main/images/preview-light.png?raw=1" alt="Graphite Red modo Light" loading="lazy" decoding="async" />
+            <figcaption class="help">Modo Light</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="instalacao" aria-label="Instalação">
+      <div class="container">
+        <div class="section-head">
+          <div class="kicker">Instalação</div>
+          <h2>Como instalar no VS Code</h2>
+          <p>Você pode instalar pelo Marketplace ou pelo GitHub.</p>
+        </div>
+
+        <div class="grid install-grid">
+          <article class="card">
+            <h3 class="card-title">Opção 1 — Marketplace (se publicado)</h3>
+            <ol class="list">
+              <li>Abra o VS Code.</li>
+              <li>Vá em <strong>Extensions</strong> (Ctrl+Shift+X).</li>
+              <li>Pesquise por <strong>Graphite Red</strong>.</li>
+              <li>Clique em <strong>Install</strong> e selecione em <strong>Preferences → Color Theme</strong>.</li>
+            </ol>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title">Opção 2 — Pelo GitHub</h3>
+            <ol class="list">
+              <li>Abra o repositório no GitHub e baixe como <strong>ZIP</strong> (ou clone).</li>
+              <li>Extraia para a pasta de extensões do VS Code:</li>
+            </ol>
+
+            <div class="code-block" role="note" aria-label="Pastas padrão do VS Code">
+              <div class="code-row">
+                <div class="code-line"><span class="t-dim">Windows:</span> %USERPROFILE%\.vscode\extensions</div>
+                <button class="copy-btn" type="button" data-copy="%USERPROFILE%\.vscode\extensions" aria-label="Copiar caminho">Copiar</button>
+              </div>
+              <div class="code-row">
+                <div class="code-line"><span class="t-dim">macOS:</span> ~/.vscode/extensions</div>
+                <button class="copy-btn" type="button" data-copy="~/.vscode/extensions" aria-label="Copiar caminho">Copiar</button>
+              </div>
+              <div class="code-row">
+                <div class="code-line"><span class="t-dim">Linux:</span> ~/.vscode/extensions</div>
+                <button class="copy-btn" type="button" data-copy="~/.vscode/extensions" aria-label="Copiar caminho">Copiar</button>
+              </div>
+            </div>
+
+            <p class="help" style="margin-top: 10px;">
+              Depois reinicie o VS Code e selecione em <strong>Preferences → Color Theme</strong>.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title">Ativar e alternar</h3>
+            <ol class="list">
+              <li>Abra a paleta: <strong>Ctrl+Shift+P</strong></li>
+              <li>Digite <strong>Color Theme</strong></li>
+              <li>Escolha <strong>Graphite Red (Dark)</strong> ou <strong>Graphite Red (Light)</strong></li>
+            </ol>
+            <div class="callout" style="margin-top: 10px;">
+              <p>Se o tema não aparecer, confira o FAQ abaixo.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="theme-cta">
+          <a class="btn btn-primary" href="https://github.com/sr4kkk/graphite-red" target="_blank" rel="noopener">Ver repositório no GitHub</a>
+          <a class="btn btn-ghost" href="https://github.com/sr4kkk/graphite-red/archive/refs/heads/main.zip" target="_blank" rel="noopener">Baixar ZIP do GitHub</a>
+          <a class="btn btn-secondary" href="index.html#projetos">Voltar para projetos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-label="Perguntas frequentes">
+      <div class="container">
+        <div class="section-head">
+          <div class="kicker">FAQ</div>
+          <h2>Perguntas frequentes</h2>
+          <p>Dúvidas rápidas sobre instalação e uso.</p>
+        </div>
+
+        <div class="faq">
+          <details class="faq-item">
+            <summary>Instalei e o tema não apareceu. O que fazer?</summary>
+            <div class="faq-content">
+              <p>Reinicie o VS Code e abra <strong>Preferences → Color Theme</strong>. Se instalou via pasta, confirme se o diretório do tema ficou dentro de <strong>.vscode/extensions</strong> e se não está “aninhado” em subpastas.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Como alternar entre Dark e Light?</summary>
+            <div class="faq-content">
+              <p>Abra a paleta (<strong>Ctrl+Shift+P</strong>), digite <strong>Color Theme</strong> e selecione <strong>Graphite Red (Dark)</strong> ou <strong>Graphite Red (Light)</strong>.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Posso contribuir?</summary>
+            <div class="faq-content">
+              <p>Sim. Use o GitHub para abrir issues e enviar sugestões. Feedback técnico é bem-vindo.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Fractalyn Systems</h3>
+          <p>Projetos e temas feitos de forma clara e prática.</p>
+        </div>
+
+        <div>
+          <h3>Site</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cases.html">Cases</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Projeto</h3>
+          <ul>
+            <li><a href="#instalacao">Instalação</a></li>
+            <li><a href="https://github.com/sr4kkk/graphite-red" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="privacidade.html">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-meta">
+        <span>© <span id="year"></span> Fractalyn Systems</span>
+        <span class="t-dim">Feito com foco em responsividade e acessibilidade.</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/synapse.js" defer></script>
+</body>
+</html>

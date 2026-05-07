@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Favicon Fractalyn">
+  <rect width="64" height="64" rx="14" fill="#0B1220"/>
+  <path d="M32 12L48 20V44L32 52L16 44V20L32 12Z" stroke="#E6EEF9" stroke-width="3"/>
+  <path d="M24 25L32 20L40 25V39L32 44L24 39V25Z" fill="#6AE4FF" fill-opacity=".18"/>
+  <path d="M32 20V44" stroke="#6AE4FF" stroke-opacity=".75" stroke-width="3"/>
+</svg>
